@@ -18,6 +18,27 @@ body {
 .header {
     grid-area: header;
     background-color: #1867c0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 2px 12px 19px 4px rgba(0,0,0,0.31);
+}
+
+.header > h1 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 1.6rem;
+
+}
+
+.header > h2 {
+    margin: 10px 0px 0px 0px;
+    font-weight: 200;
+    font-size: 1.2rem;
 }
 
 .main {
@@ -29,7 +50,7 @@ body {
 
 .footer {
     grid-area: footer;
-    background-color: #f0f;
+    background-color: #fff;
     /*position: sticky;
     bottom: 0px;*/
 }
