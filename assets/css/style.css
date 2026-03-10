@@ -29,7 +29,7 @@ body {
 
 .footer {
     grid-area: footer;
-    background-color: #fff;
+    background-color: #f0f;
     /*position: sticky;
     bottom: 0px;*/
 }
