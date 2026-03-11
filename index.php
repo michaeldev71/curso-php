@@ -96,7 +96,7 @@
     </main>
     
     <footer class="footer">
-        CODER & ALUNOS © 2026
+        CODER & ALUNOS © <?= date("Y"); ?>
     </footer>
 </body>
 </html>
