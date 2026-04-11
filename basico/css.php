@@ -31,7 +31,7 @@
         justify-content: center;
     }
 
-    <?= "[azul]" ?> {
+    [azul] {
         color: #1246f4;
     }
 
