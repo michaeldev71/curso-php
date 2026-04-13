@@ -55,6 +55,10 @@
                             <a href="exercicio.php?dir=tipos&file=float">Tipo Float
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=aritmeticas">Op. Aritméticas
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
