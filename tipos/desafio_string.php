@@ -9,4 +9,4 @@
 
 echo strpos('!AbcaBcabc', 'abc') . '<br>'; // 
 echo stripos('!AbcaBcabc', 'abc') . '<br>'; // stripos é case insensitive, ou seja, não diferencia maiúscula de minúscula
-echo strpos (strtolower('!AbcaBcabc'), 'ABC') . '<br>'; // outra forma de fazer a mesma coisa, convertendo tudo para minúsculo
+echo strpos(strtolower('!AbcaBcabc'), strtolower('ABC')); // outra forma de fazer a mesma coisa, convertendo tudo para minúsculo
